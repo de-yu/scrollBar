@@ -247,7 +247,6 @@ function ScrollBar(selector)
             }
             ,drag: function (ui)
             {       
-
                 if (ui.top() <= 0)
                 {
                     ui.top(0);
@@ -259,17 +258,11 @@ function ScrollBar(selector)
                 contentPosTop = -ui.top() * getHeight(content) / getHeight(scroll);
 
                 setCss(content , {top: contentPosTop + "px"});
-               // now_slider.show();
                 draging = true;
                 
             }
             , end: function () {
                 draging = false;
-                /*if (leave)
-                {
-                    now_slider.hide('fast');
-                    now_scroll.hide('fast');
-                }*/
                 selectProhibit(false);
             }
         });
