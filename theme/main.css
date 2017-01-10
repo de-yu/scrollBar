@@ -1,0 +1,143 @@
+#header
+{
+    background: rgb(65, 65, 65);
+    width:100%;
+    height:200px;
+    margin:0 auto;
+}
+#header span
+{
+   line-height: 200px;
+    display:table;
+    color:rgb(106, 188, 247);
+    font-size:6em;
+    margin:0 auto; 
+}
+.download
+{
+    margin:0 auto;
+    width:100%;
+    height:100px;
+    background: rgb(65, 65, 65);
+}
+.download a
+{
+    background: rgb(82, 203, 123);
+    padding:20px 30px;
+    display:table;
+    color:#fff;
+    font-size:1.5em;
+    font-weight: bold;
+    margin:0 auto; 
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px rgb(55,55,55);
+}
+
+#demo
+{
+    width:1200px;
+    height:400px;
+    margin:0 auto;
+    margin-top:100px;
+    color:rgb(106,106,106);
+}
+#one-border
+{
+   width:399px;
+   height:100%;
+   overflow: hidden;
+   float:left;
+}
+#scrollBar-all-1
+{
+    position: relative;  
+    width:100%;
+    height:400px;
+
+}
+#one-all
+{
+    position: relative;
+       width:350px;
+       margin:0 auto;
+        height:400px;
+       overflow: hidden;
+}
+#one
+{
+    width:100%;
+    position: relative;  
+    overflow: hidden;
+}
+
+#two-border
+{
+    position: relative;  
+    width:399px;
+    height:400px;
+    overflow: hidden;
+    float:left;
+    margin:0 auto;
+}
+#two-all
+{
+       width:350px;
+       margin:0 auto; 
+}
+ #two-1
+ {
+     width:100%;
+     height:50px;
+ }
+#two-2-all
+ {
+    position: relative;
+       width:350px;
+       margin:0 auto;
+        height:300px;
+       overflow: hidden;
+ }
+ #two-2
+ {   position: relative;  
+     width:100%;  
+ }
+  #two-3
+ {
+      position: relative;      
+     width:100%;
+     height:50px;
+ }
+ #three-border
+{
+    position: relative;  
+    width:400px;
+    height:100%;
+    overflow: hidden;
+    float:left;
+    margin:0 auto;
+}
+
+#three-all
+{
+    position: relative;
+       width:350px;
+       margin:0 auto;
+        height:350px;
+       overflow: hidden;
+}
+#three
+{      
+    width:100%;
+    position: relative;
+}
+
+#demo
+{
+    letter-spacing: 2px;
+    line-height:20px;
+}
+ #change
+ {
+     display:block;
+ }
